@@ -1,12 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace Assignment3_classes
 {
-    internal class UI
+    namespace classes
     {
+        // FILE: UI.cs
+        // DESCRIPTION: Handles all console output operations.
+
+        internal class UI
+        {
+            // METHOD: Display
+            // DESCRIPTION: Displays a message on the console.
+            // PARAMETERS:  string message: The text to be displayed.
+            public void Display(string message)
+            {
+                // Prints the message to the console
+                Console.WriteLine(message);
+            }
+        }
     }
 }
