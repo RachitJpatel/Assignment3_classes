@@ -1,8 +1,6 @@
 ﻿
 namespace Assignment3_classes
 {
-    namespace classes
-    {
         // FILE: UI.cs
         // DESCRIPTION: Handles all console output operations.
 
@@ -17,5 +15,4 @@ namespace Assignment3_classes
                 Console.WriteLine(message);
             }
         }
-    }
 }
